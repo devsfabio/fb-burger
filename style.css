@@ -76,9 +76,6 @@ body {
 }
 
 @media (max-width: 720px) {
-  body {
-    height: 100vh;
-  }
   ul {
     grid-template-columns: 200px 200px;
   }
