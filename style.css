@@ -5,7 +5,12 @@
   box-sizing: border-box;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+body {
+  background: url(assets/mockup-photos-5nUNdLueQio-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 .container-btn {
   display: flex;
   justify-content: center;
@@ -27,7 +32,7 @@
   opacity: 0.8;
 }
 ul li img {
-  max-width: 100%;
+  width: 100%;
   border-radius: 6px;
 }
 .img1 {
@@ -66,12 +71,6 @@ li {
   font-weight: 600;
   font-size: 22px;
   color: aliceblue;
-}
-body {
-  background: url(assets/mockup-photos-5nUNdLueQio-unsplash.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 @media (max-width: 720px) {
