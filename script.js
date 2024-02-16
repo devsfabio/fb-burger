@@ -42,7 +42,7 @@ function handleCardapio(newArray) {
   <img class="img1" src=${product.src} alt="">
 
   <p class="name-burger">${product.name}</p>
-  <p class="price">R$${formatCurrency(product.price)}</p>
+  <p class="price">${formatCurrency(product.price)}</p>
 
 </li>`;
   });
@@ -64,8 +64,12 @@ function handleVegan() {
 
 function handleTotal() {
   const sumTotal = menuOptions.reduce((acc, curr) => acc + curr.price, 0);
-  list.innerHTML = `<li>
-  <p class="price">O valor total do pedido foi:R$${formatCurrency(sumTotal)}</p>
+  list.innerHTML = `<li class="totale">
+  <p class="value">O valor total do pedido foi: <span class="value-total">${formatCurrency(
+    sumTotal,
+  )}</span> 
+  <br>
+  Obrigado pela Preferência!🍔</p>
   </li>`;
 }
 

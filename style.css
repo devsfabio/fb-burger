@@ -37,7 +37,6 @@ ul li img {
 ul {
   display: grid;
   grid-template-columns: 200px 200px 200px;
-  color: azure;
   gap: 32px;
   justify-content: center;
 }
@@ -49,10 +48,24 @@ li {
 .name-burger {
   font-size: 17px;
   margin-bottom: 5px;
+  color: rgb(255, 196, 3);
 }
 .price {
   font-size: 20px;
-  color: chartreuse;
+  color: rgb(93, 248, 4);
+}
+.totale {
+  border: 2px solid #eb7907;
+  padding: 18px;
+  border-radius: 8px;
+}
+.value-total {
+  color: rgb(248, 232, 4);
+}
+.value {
+  font-weight: 600;
+  font-size: 22px;
+  color: aliceblue;
 }
 body {
   height: 100vh;
